@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Storemyresult </title>
+    <link rel="stylesheet" href="ME.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>It's free and only takes a minute</h4>
+        <form class="form" action="signup.php" method="POST">
+            <div class="form-control">
+                <label for="USN" name="USN">USN:</label>
+                <input type="Usn" placeholder="USN" id="usn" name="USN" required />
+                <small>Error Message</small></div>
+                <div class="form-control">
+                    <label for="Firstname" name="Firstname">First Name:</label>
+                    <input type="text" placeholder="First name" id="firstname" name="Firstname" required/>
+                    <small>Error Message</small></div>
+             <div class="form-control">
+                <label for="Lastname" name="Lastname">Last Name:</label>
+                <input type="lastname" placeholder="Last name" id="lastname" name="Lastname" required />
+                <small>Error Message</small></div>
+           
+             <div class="form-control">
+                 <label for="Password" name="Password">Password:</label>
+                <input type="password" placeholder="Password" id="password" name="Password" required />
+                <small>Error Message</small></div>
+             <div class="form-control">
+                <label for="Password2" name="Password2"> confirm Password:</label>
+                <input type="password" placeholder="Re-type password" id="password2" name="Password2" required />
+                <small>Error Message</small></div>
+
+
+
+             <div class="form-control">
+                <button name="save">submit</button></div>
+
+        </form>
+
+    </div>
+    <script src="log.js"></script>
+    <p class="para-2 ">
+        Already have an account? <a href="login.html">Login here</a>
+        
+           <br> <a href="home.html">go to home page </a>
+    </p>
+
+</body>
+
+</html>

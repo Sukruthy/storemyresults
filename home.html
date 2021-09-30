@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>storemyresult</title>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <nav>
+          <div class="logo"><a href="logo.jng"></a></div>
+          <div class="company">Compsoft Technology</div>
+          <div class="header1" id="header1">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+              <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="aboutus.html">About</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="signup.html">Signup</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+          <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      
+      <script>
+        var header1=document.getElementById("header1");
+        function showMenu(){
+        header1.style.right ="0";
+        }
+        function hidemenu(){
+        header1.style.right ="-200px";
+        }
+        </script>
+  </body>
+  </html>
